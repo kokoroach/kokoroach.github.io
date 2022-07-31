@@ -4946,9 +4946,15 @@ html.no-csstransitions .s-hero__content {
     }
 }
 
+@media screen and (max-width: 1320px) {
+    .s-contact__email {
+        font-size: calc(var(--text-size) * 5);
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .s-contact__email {
-        font-size: 10vw;
+        font-size: 7vw;
     }
 }
 
